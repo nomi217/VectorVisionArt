@@ -1,0 +1,64 @@
+ .red_class{
+        color:red;
+        font-weight: 600;
+    }
+    .product_info, .customer_info{
+    	margin-top: 4px !important;
+    }
+
+    .accessory_details{
+    	    overflow-wrap: break-word;
+   			 text-align: justify;
+    }
+    .td_heading{
+    	    width: 38%;
+    		font-weight: 600;
+    }
+      .accessories_lists li{
+            font-size: 20px;
+    }
+    .filtersOptions{
+    margin-top: 20px;
+    }
+   #salestart_date
+    {
+            margin-right: 10px;
+    }
+  /*  .noPyamnetSchBTN{
+        pointer-events: none;
+
+    }*/
+    #datatable_allsalesRecords th{
+        font-size: 12px;
+    }
+
+   .all_items{
+ list-style: none;
+ padding: 0px;
+ width: 250px;
+ position: absolute;
+ margin: 0;
+}
+    
+
+    .all_items li{
+ color: white;
+     background-color: #33b86c;
+ padding: 4px;
+ margin-bottom: 1px;
+        width: 164px;
+            font-weight: 600;
+}
+
+/*.all_items li:nth-child(even){
+ background: cadetblue;
+ color: white;
+}*/
+
+.all_items li:hover{
+ cursor: pointer;
+ transition: auto;
+    color: black;
+    background: #8762c6;
+    transition-delay: 10s;
+}
